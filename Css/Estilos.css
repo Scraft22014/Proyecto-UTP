@@ -1,3 +1,4 @@
+/* estilos del cuerpo de la pagina */
 body {
     margin: 0;
     padding: 0;
@@ -6,7 +7,7 @@ body {
     font-family: sans-serif;
     height: 100vh;
 }
-
+/* estilos de la caja de "iniciar sesion" */
 .login-box {
     width: 320px;
     height: 420px;
@@ -20,6 +21,8 @@ body {
     padding: 70px 30px;
 }
 
+/* estilos del titulo */
+
 .login-box h1 {
     margin: 0;
     padding: 0 0 20px;
@@ -28,7 +31,7 @@ body {
 
 }
 
-
+/* Estilos del laber  */
 
 .login-box label{
     margin: 0;
@@ -37,11 +40,15 @@ body {
     display:  block;
 }
 
+/* Estilos de la entrada del usuario */
 
 .login-box input{
     margin-bottom: 20px;
     width: 100%;
 }
+
+/* estilos de los campos de "usuario" y "Contraseña" */
+
 .login-box input [type=text]
 .login-box input [type="password"]{
     border: none;
