@@ -31,7 +31,7 @@ body {
 
 }
 
-/* Estilos del laber  */
+/* Estilos del label  */
 
 .login-box label{
     margin: 0;
@@ -49,8 +49,7 @@ body {
 
 /* estilos de los campos de "usuario" y "Contraseña" */
 
-.login-box input [type=text]
-.login-box input [type="password"]{
+.login-box input{
     border: none;
     border-bottom: 1px solid  #fff ;
     background: transparent;
@@ -59,3 +58,27 @@ body {
     color:white;
     font-size: 16px;
 }
+
+/* Estilos del boton  */
+
+.login-box button{
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: forestgreen;
+    color :white;
+    font: size 20px;
+    border-radius:20px;
+    margin: 0;
+    align-items: center;
+    
+}
+
+/* Estilos de el texto  */
+.login-box a {
+    text-decoration:none;
+    font-size: 12px;
+    line-height: 20px;
+    color:darkgrey;
+}
+
